@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyDFS.Client", "TinyDFS.Client\TinyDFS.Client.csproj", "{742DCE5F-0CB1-4BD5-BCD9-FAF9D306D2B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyDFS.FileServer", "TinyDFS.FileServer\TinyDFS.FileServer.csproj", "{4BEB11F4-785B-4B2A-91A7-5F590DAF371B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyDFS.NameNode", "TinyDFS.NameNode\TinyDFS.NameNode.csproj", "{DA4BAA28-41FF-4910-BCD4-3792F2E945E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{742DCE5F-0CB1-4BD5-BCD9-FAF9D306D2B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{742DCE5F-0CB1-4BD5-BCD9-FAF9D306D2B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{742DCE5F-0CB1-4BD5-BCD9-FAF9D306D2B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{742DCE5F-0CB1-4BD5-BCD9-FAF9D306D2B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BEB11F4-785B-4B2A-91A7-5F590DAF371B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BEB11F4-785B-4B2A-91A7-5F590DAF371B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BEB11F4-785B-4B2A-91A7-5F590DAF371B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BEB11F4-785B-4B2A-91A7-5F590DAF371B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA4BAA28-41FF-4910-BCD4-3792F2E945E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA4BAA28-41FF-4910-BCD4-3792F2E945E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA4BAA28-41FF-4910-BCD4-3792F2E945E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA4BAA28-41FF-4910-BCD4-3792F2E945E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
